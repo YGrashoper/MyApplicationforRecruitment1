@@ -22,7 +22,7 @@ public class Function {
     private static final String OPEN_WEATHER_MAP_URL =
             "http://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&units=metric";
 
-    private static final String OPEN_WEATHER_MAP_API = "====== YOUR OPEN WEATHER MAP API ======";
+    private static final String OPEN_WEATHER_MAP_API = "9908385501d542597028c1b0f592f2c9";
 
     static String setWeatherIcon(int actualId, long sunrise, long sunset){
         int id = actualId / 100;
